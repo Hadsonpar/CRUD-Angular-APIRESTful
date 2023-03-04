@@ -24,3 +24,9 @@
 1. IntelliJ IDEA Community Edition.
 2. Visual Studio Code.
 3. pgAdmin 4.
+
+Lista de pendientes
+------------------
+1. Terminar el tutorial de Markdown
+2. Ir a la tienda de abarrotes
+3. Preparar el almuerzo
