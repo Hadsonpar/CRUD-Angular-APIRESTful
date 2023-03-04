@@ -5,11 +5,11 @@
 
 ### Frontend
 </hr>
-1. Angular 14.
-1. Angular CLI.
-1. TypeScript.
-1. Bootstrap.
-1. Node.JS.
+  1. Angular 14.
+  1. Angular CLI.
+  1. TypeScript.
+  1. Bootstrap.
+  1. Node.JS.
 
 ### Backend
 </hr>
