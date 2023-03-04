@@ -5,7 +5,7 @@
 
 ### Frontend
 </hr>
-- Angular 14.
+  - Angular 14.
   1. Angular CLI.
   1. TypeScript.
   1. Bootstrap.
