@@ -6,12 +6,12 @@
 ### Frontend
 </hr>
 1. Angular 14
-2. Angular CLI
-3. TypeScript
-4. Bootstrap
-5. Node.JS
+1. Angular CLI
+1. TypeScript
+1. Bootstrap
+1. Node.JS
 
-### Frontend
+### Backend
 </hr>
 1. Java 17.
 2. Maven 3.8.6.
