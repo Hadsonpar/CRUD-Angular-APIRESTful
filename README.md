@@ -4,7 +4,7 @@ Web Application programming un Angular 14 and integration with API RESTful devel
 
 ## Technologies Used:
 
-Frontend:
+🚀Frontend:
 ------------------
 1. Angular 14.
 2. Angular CLI.
@@ -12,7 +12,7 @@ Frontend:
 4. Bootstrap.
 5. Node.JS.
 
-Backend:
+📋 Backend:
 ------------------
 1. Java 17.
 2. Maven 3.8.6.
@@ -20,7 +20,7 @@ Backend:
 4. Spring Data JPA
 5. PostgreSQL
 
-IDEs:
+⚙️ IDEs:
 ------------------
 1. IntelliJ IDEA Community Edition.
 2. Visual Studio Code.
