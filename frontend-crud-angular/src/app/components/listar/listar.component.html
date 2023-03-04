@@ -1,0 +1,43 @@
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-12 p-3">
+            <button type="button" class="btn btn-success" [routerLink]="['/add']">Agregar</button>
+        </div>
+        <div class="col-sm-12">
+
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr><!--
+                <th scope="col">Codigo</th>-->
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Créditos</th>
+                            <th scope="col">Duracion</th>
+                            <th scope="col">Contenido</th>
+                            <th scope="col">Costo</th>
+                            <th scope="col">#</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let asignatura of list">
+                            <!--<td>{{asignatura.codigo}}</td>-->
+                            <td>{{asignatura.nombre}}</td>
+                            <td>{{asignatura.creditos}}</td>
+                            <td>{{asignatura.duracion}}</td>
+                            <td>{{asignatura.contenido}}</td>
+                            <td>{{asignatura.costo}}</td>
+                            <td>
+                                <button type="button" class="btn btn-primary btn-sm"
+                                    [routerLink]="['/edit/', asignatura.codigo]">Editar</button>
+                                <button type="button" class="btn btn-danger btn-sm"
+                                    (click)="deleteAsig(asignatura.codigo)">Eliminar</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
