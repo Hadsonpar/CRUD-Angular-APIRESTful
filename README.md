@@ -5,21 +5,22 @@
 
 ### Frontend
 </hr>
-* Angular 14
-* Angular CLI
-* TypeScript
-* Bootstrap
-* Node.JS
+1. Angular 14
+2. Angular CLI
+3. TypeScript
+4. Bootstrap
+5. Node.JS
 
 ### Frontend
 </hr>
-* Java 17.
-* Maven 3.8.6.
-* Spring Boot 3
-* Spring Data JPA
-* PostgreSQL
+1. Java 17.
+2. Maven 3.8.6.
+3. Spring Boot 3
+4. Spring Data JPA
+5. PostgreSQL
 
 ### IDEs
 </hr>
-* IntelliJ IDEA Community Edition.
-* Visual Studio Code.
+1. IntelliJ IDEA Community Edition.
+2. Visual Studio Code.
+3. pgAdmin 4.
