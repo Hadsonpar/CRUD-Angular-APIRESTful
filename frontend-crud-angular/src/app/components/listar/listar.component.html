@@ -9,8 +9,7 @@
             <div class="table-responsive">
                 <table class="table">
                     <thead>
-                        <tr><!--
-                <th scope="col">Codigo</th>-->
+                        <tr>
                             <th scope="col">Nombre</th>
                             <th scope="col">Créditos</th>
                             <th scope="col">Duracion</th>
@@ -20,8 +19,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr *ngFor="let asignatura of list">
-                            <!--<td>{{asignatura.codigo}}</td>-->
+                        <tr *ngFor="let asignatura of list"><!-- listar los registro asignatura -->                            
                             <td>{{asignatura.nombre}}</td>
                             <td>{{asignatura.creditos}}</td>
                             <td>{{asignatura.duracion}}</td>
@@ -29,9 +27,9 @@
                             <td>{{asignatura.costo}}</td>
                             <td>
                                 <button type="button" class="btn btn-primary btn-sm"
-                                    [routerLink]="['/edit/', asignatura.codigo]">Editar</button>
+                                    [routerLink]="['/edit/', asignatura.codigo]">Editar</button><!-- Botón Editar -->   
                                 <button type="button" class="btn btn-danger btn-sm"
-                                    (click)="deleteAsig(asignatura.codigo)">Eliminar</button>
+                                    (click)="deleteAsig(asignatura.codigo)">Eliminar</button><!-- Botón Eliminar -->   
                             </td>
                         </tr>
                     </tbody>

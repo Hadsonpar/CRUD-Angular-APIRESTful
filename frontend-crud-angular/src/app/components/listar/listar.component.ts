@@ -8,15 +8,17 @@ import { AsignaturaService } from 'src/app/services/asignatura.service';
 })
 export class ListarComponent implements OnInit {
   
-  list:any=[];
+  list:any=[];  
   constructor(private asignaturaService: AsignaturaService) { }
 
   ngOnInit(): void {
-    this.listAsig();
+    this.listAsig();/* Iniciar cargando la lista asignatura */
   }
 
+  /* Método para listar los registros */  
   listAsig()
   {
+    /* Referenciar al método getAsignatura() del servicio asignatura */
     this.asignaturaService.getAsignatura().subscribe(
       res=>{
         this.list=res;
@@ -26,10 +28,12 @@ export class ListarComponent implements OnInit {
     );
   }
 
-  deleteAsig(id:string){
+  /* Método para eliminar el registro según el id de la asignatura */
+  deleteAsig(id:string){    
+    /* Referenciar al método deleteAsignatura() del servicio asignatura */
     this.asignaturaService.deleteAsignatura(id).subscribe(
       res=>{this.ngOnInit();},
       err=>console.log(err)
     );
-  }
+  }  
 }

@@ -6,7 +6,7 @@ import { ListarComponent } from './components/listar/listar.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'list', pathMatch: 'full'},
-
+  /* rutear los componentes listar, editar por código y agregar registros */
   {path: 'list', component: ListarComponent},
   {path: 'edit/:cod', component: EditComponent},
   {path: 'add', component: AddComponent}
